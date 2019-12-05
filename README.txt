@@ -18,7 +18,8 @@ while PC.PC(a, b) == 0:
 print("success password matches criteria")
 
 A is a string variable which could be swapped out with whatever your password variable is.
-B is an integer which allows you to set the required length of the users password
+B is an integer which allows you to set the required length of the users password.
+At the end the program returns either a 1 or a 0 depending on if the program found all the password criteria.
 
 If you have got this far without error, I congratulate you well done we are finished. If you can please credit me in your final project.
 Other than that thank you for using my library!!!
