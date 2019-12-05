@@ -14,7 +14,7 @@ def PC(c, b):
     
     for x in listthing:
         if x >= 'A' and x <= 'Z':
-        elif x >= '0' and x <= '9':
+          if x >= '0' and x <= '9':
             truee = 1
 
     """Collecting Results and returning to main program the
