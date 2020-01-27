@@ -24,8 +24,8 @@ def PC(c, b):
     findings of the result"""
             
     if truee == 1 and trueee == 1 and lenthlist >= b:
-        return 1
+        return True
     else:
-        return 0
+        return False
 
         

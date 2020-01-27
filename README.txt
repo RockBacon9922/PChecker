@@ -12,14 +12,14 @@ I will put this code in "2ndPCheckerExample" which is included in the same direc
 import PCheck.PC as PC
 a = input("input ")
 b = 7 #required length of password
-while PC.PC(a, b) == 0:
+while PC.PC(a, b) == False:
 	print("password is not good enough")
 	a = input("input ")
 print("success password matches criteria")
 
 A is a string variable which could be swapped out with whatever your password variable is.
 B is an integer which allows you to set the required length of the users password.
-At the end the program returns either a 1 or a 0 depending on if the program found all the password criteria.
+At the end the program returns either a True or False depending on if the program found all the password criteria.
 
 If you have got this far without error, I congratulate you well done we are finished. If you can please credit me in your final project.
 Other than that thank you for using my library!!!

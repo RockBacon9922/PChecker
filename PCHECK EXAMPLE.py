@@ -2,7 +2,7 @@
 import PCheck.PC as PC
 length = 8
 c = input("PCheck Test: ")
-while PC.PC(c, length) == 0 :
+while PC.PC(c, length) == False :
     print("password is not sutiable")
     print("Remember the password has to have one capital letter, a number and be longer then " + str(length) + " characters")
     c = input("PCheck Test: ")
